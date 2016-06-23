@@ -42,7 +42,7 @@ var SearchBar = React.createClass({
             onPress={() => this.refs.input && this.refs.input.focus()}>
           <View>
             <Image
-              source={require('image!android_search_white')}
+              source={require('./android_search_white.png')}
               style={styles.icon}
             />
           </View>
